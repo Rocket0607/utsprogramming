@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	}
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: grey;
+	position: sticky;
+}
+
+.brand {
+	font-size: 30px;
+	padding-left: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav-content {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	font-size: 25px;
+}
+
+.nav-content li {
+	list-style: none;
+}
+
+.nav-content li a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	text-align: center;
+	padding-top: 350px;
+	background-image: url("../qwe_download.jpg");
+	width: 105vw;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -100px;
+	background-attachment: fixed;
+	color: white;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#about h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+}
+#about p {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	padding-left: 45px;
+	padding-right: 45px;
+	line-height: 50px;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.head {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+}
+
+.project {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Roboto' sans-serif;
+	height: 50px;
+}
