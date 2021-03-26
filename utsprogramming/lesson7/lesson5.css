@@ -1,0 +1,130 @@
+* {
+	}
+.nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        transition: background 0.5s;
+        background-color: transparent;
+        position: fixed;
+        width: 100%;
+        font-family: roboto;
+        font-weight: 500;
+	margin-top: 50px;
+      }
+.brand {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 2.5px;
+        display: none;
+      }
+.brand a {
+        text-decoration: none;
+        color: white;
+      }
+.nav-content {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        letter-spacing: 1.5px;
+      }
+.nav-content li {
+        list-style: none;
+      }
+.nav-content a {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+.header {
+	margin-top: -50px;
+	margin-left: -8px;
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+	background-image: url(qwe_download.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.head {
+     text-transform: uppercase;
+     font-size: 35px;
+     padding-top: 5%;
+     text-align: center;
+   }
+   .about-grid {
+     display: grid;
+     width: 100%;
+     margin-top: 2%;
+   }
+   .about-picture {
+     width: 100%;
+     height: auto;
+   }
+   #me-pic {
+     width: 15%;
+     height: auto;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+   }
+   .about-para {
+     font-family: raleway;
+     font-size: 23px;
+     word-spacing: 5px;
+     letter-spacing: 1px;
+     line-height: 45px;
+     padding: 15px 10px 10px 10px;
+     text-align: center;
+     margin-left: 100px;
+     margin-right: 100px;
+   }
+   #projects-grid {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       justify-items: center;
+   }
+   .project {
+       font-size: 20px;
+       padding: 50px 0px;
+   }
+        .contacts {
+          display: grid;
+          grid-template-columns: 10% 10% 10%;
+          background-color: black;
+          width: 250%;
+          height: 30%;
+          color: white;
+          justify-items: center;
+          align-items: center;
+          font-family: source sans pro;
+          font-size: 20px;
+          background-color: rgb(30, 30, 30);
+          font-weight: lighter;
+          letter-spacing: 2px;
+          padding-left: 15%;
+        }
+        .contact {
+          border: solid;
+          padding: 15px 15px 15px 15px;
+          color: rgb(121, 167, 204);
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+        #contact {
+          text-transform: uppercase;
+          color: rgb(230, 230, 230);
+          font-weight: bolder;
+          font-size: 35px;
+        }

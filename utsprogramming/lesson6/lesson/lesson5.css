@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	}
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: grey;
+	position: sticky;
+}
+
+.brand {
+	font-size: 30px;
+	padding-left: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav-content {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	font-size: 25px;
+}
+
+.nav-content li {
+	list-style: none;
+}
+
+.nav-content li a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	text-align: center;
+	padding-top: 350px;
+	background-image: url("../qwe_download.jpg");
+	width: 105vw;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -100px;
+	background-attachment: fixed;
+	color: white;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#about-pic {
+	margin-left: auto;
+	margin-right:auto;
+	display: block;
+	border-radius: 50% 50%;
+}
+
+#about-me-para {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	padding-left: 45px;
+	padding-right: 45px;
+	line-height: 50px;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.head {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+
+.project {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Roboto' sans-serif;
+	padding: 45px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#contacts {
+	background-color: #232323;
+	padding-top: 20px;
+	margin-top: 100px;
+}
+
+#contact-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	text-align: center;
+	padding: 70px 0px;
+}
+.contact {
+	font-size: 30px;
+	font-family: Roboto;
+	color: white;
+}
+.contact a {
+	text-decoration: none;
+	color: white;
+}
