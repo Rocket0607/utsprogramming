@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>Javascript</title>
+  <meta charset="utf-8">
+  <style>
+   .text {
+     color: blue;
+   }
+   .red-text {
+     color: red;
+   }
+   .cyan-text {
+     color: cyan;
+   }
+  </style>
+</head>
+
+<body>
+  <p class="text">hi</p>
+  <input name="change-colour" type="button" value="change-colour to red" onCLick="changeColourToRed()"/>
+  <input name="change-colour" type="button" value="change-colour to cyan" onCLick="changeColourToCyan()"/>
+  <script>
+
+   /* let usernames = ["james", "bob", "tom"]
+
+    * let i;
+    * for (i = 0; i <= 3; i++) {
+    *   console.log(usernames[i])
+    * } */
+   //document.getElementById("id")
+   //document.getElementsByClassNames("class")
+   function changeColourToRed () {
+	let text = document.querySelector(".text")
+	text.classList.add("red-text")
+   }
+
+   function changeColourToCyan () {
+	let text = document.querySelector(".text")
+	text.classList.add("cyan-text")
+   }
+  </script>
+</body>
+</html>

@@ -39,6 +39,16 @@
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
 }
+
+@keyframes changing-text {
+	33% {
+		content: "Good"
+	}
+	66% {
+		content: "hi"
+	}
+}
+
 .header {
 	padding-top: 50vh;
 	text-align: center;
@@ -53,18 +63,9 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-@keyframes changing-text {
-	33% {
-		content: "App Developer";
-	}
-	66% {
-		content: "Web Developer";
-	}
-}
-
 .header::after {
-	content: "Hello";
-	animation: changing-text 5s infinite;
+	content: "hello";
+	animation: changing-text 3s infinite;
 }
 
 #about-pic {
@@ -97,14 +98,26 @@
 	font-size: 40px;
 }
 
+@keyframes elevate {
+	from {
+	box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
+	}
+	to {
+	box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.4);
+	}
+}
+
 .project {
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Roboto' sans-serif;
 	padding: 95px;
 	font-family: 'Montserrat', sans-serif;
-	box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
 	border-radius: 20px;
+}
+.project:hover{
+	animation: elevate 1 forwards;
 }
 
 #contacts {
